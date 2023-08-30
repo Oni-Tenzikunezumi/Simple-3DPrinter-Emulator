@@ -16,7 +16,7 @@ public class TestMain3 {
 		Printer3D p1 = new Printer3D(name, ext, fila, size);
 		System.out.println(p1.getInfo());// 情報の取得
 
-		String fileName = "test.gcode";
+		String fileName = "mario.gcode";
 		p1.setRepRap(".\\Gcode\\" + fileName);// パスの指定
 		p1.startPrint(true);
 
